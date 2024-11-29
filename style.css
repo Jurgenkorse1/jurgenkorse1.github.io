@@ -1,30 +1,30 @@
 body{
     background-image: url(Background.jpg);
-
     background-repeat: no-repeat;
-
     background-position: center;
-
     background-attachment: fixed;
-
     background-size: cover;
-
     margin: 0px;
 }
+
 main{
     margin-left: 15px;
     margin-right: 15px;
 }
+
 h1{
     text-align: center;
 }
+
 .navbar ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    display: flex; /* Flexbox toevoegen om de lijstitems naast elkaar te zetten */
 }
+
 .navbar a{
     color: white;
     text-decoration: none;
@@ -32,10 +32,16 @@ h1{
     text-align: center;
     display: block;
 }
+
 .navbar a:hover{
-background-color: hsl(0, 0%, 15%);
+    background-color: hsl(0, 0%, 15%);
 }
 
 .navbar li{
     float: left;
+}
+
+/* Dit zorgt ervoor dat het laatste lijstitem (Jurgen Korse) naar de rechterkant verschuift */
+.navbar li:last-child {
+    margin-left: auto; /* Verplaatst het laatste item naar de rechterkant */
 }
