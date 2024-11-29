@@ -5,3 +5,13 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%)
+    
+    
+    
+}
