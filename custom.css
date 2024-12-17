@@ -40,4 +40,6 @@ h1{
 body {
     background-image: url('Schoolzaken.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
