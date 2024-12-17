@@ -39,3 +39,10 @@ h1{
 .navbar li:last-child {
     margin-left: auto; /* Verplaatst het laatste item naar de rechterkant */
 }
+body {
+    background-image: url('Schoolzaken.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
