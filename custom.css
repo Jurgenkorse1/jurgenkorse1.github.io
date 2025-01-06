@@ -16,8 +16,7 @@ h1{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    display: flex; /* Flexbox toevoegen om de lijstitems naast elkaar te zetten */
-}
+    display: flex; 
 
 .navbar a{
     color: hsl(0, 0%, 100%);
@@ -35,9 +34,9 @@ h1{
     float: left;
 }
 
-/* Dit zorgt ervoor dat het laatste lijstitem (Jurgen Korse) naar de rechterkant verschuift */
+
 .navbar li:last-child {
-    margin-left: auto; /* Verplaatst het laatste item naar de rechterkant */
+    margin-left: auto; 
 }
 body {
     background-image: url('Schoolzaken\ \(1\).png;
