@@ -37,7 +37,7 @@ h1{
 
 /* Dit zorgt ervoor dat het laatste lijstitem (Jurgen Korse) naar de rechterkant verschuift */
 .navbar li:last-child {
-    margin-left: auto; /* Verplaatst het laatste item naar de rechterkant */
+    margin-left: auto;
 }
 body {
     background-image: url('Schoolzaken.png');
