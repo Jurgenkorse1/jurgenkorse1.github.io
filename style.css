@@ -1,3 +1,12 @@
+body {
+    margin: 0px;
+    background-image: url('Schoolzaken.png'); /* Correcte URL met juiste escape voor de spatie */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 main {
     margin-left: 15px;
     margin-right: 15px;
@@ -35,11 +44,3 @@ h1 {
 .navbar li:last-child {
     margin-left: auto;
 }
-
-body {
-    background-image: url('Schoolzaken.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-  }
