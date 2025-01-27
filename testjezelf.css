@@ -8,9 +8,9 @@ body {
     background-size: cover;
 }
 
-/* Navbar styles */
+
 .navbar ul {
-    list-style-type: none;
+    list-style-type: none; 
     background-color: hsl(0, 0%, 12.5%); 
     padding: 0;
     margin: 0;
@@ -51,6 +51,7 @@ a {
 a:focus,
 a:active {
     text-decoration: none; 
+    outline: none; 
 }
 
 
@@ -59,6 +60,7 @@ div {
     display: flex;
     align-items: center; 
     justify-content: center; 
+    text-align: center; 
 }
 
 /* Button styles */
@@ -67,10 +69,10 @@ button {
     background-color: #333333; 
     color: #cf0a0a; 
     border-radius: 25px; 
-    font-weight: bold;
+    font-weight: bold; 
     border: none; 
     padding: 10px 20px; 
-    cursor: pointer;
+    cursor: pointer; 
     transition: background-color 0.3s ease; 
 }
 
