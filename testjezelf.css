@@ -54,4 +54,6 @@ div {
 }
 button{
     font-weight: bold;
+    border: none;
+    padding: 10px 20px;
 }
