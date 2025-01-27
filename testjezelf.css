@@ -65,13 +65,13 @@ div {
 
 /* Button styles */
 button {
-    font-size: 150px; 
+    font-size: 200px; 
     background-color: #333333; 
     color: #cf0a0a; 
     border-radius: 25px; 
     font-weight: bold; 
     border: none; 
-    padding: 10px 20px; 
+    padding: 20px 40px; 
     cursor: pointer; 
     transition: background-color 0.3s ease; 
 }
