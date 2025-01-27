@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-image: url('Schoolzaken.png'); /* Correcte URL met juiste escape voor de spatie */
+    background-image: url('Schoolzaken.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -44,15 +44,19 @@ h1 {
 .navbar li:last-child {
     margin-left: auto;
 }
+
 div {
-    height: 500px;
-   
-   
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
-button{
+
+button {
+    font-size: 150px;
+    background-color: #333333;
+    color: #cf0a0a;
+    border-radius: 25px;
     font-weight: bold;
     border: none;
     padding: 10px 20px;
