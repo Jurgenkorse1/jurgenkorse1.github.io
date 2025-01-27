@@ -19,62 +19,6 @@
                 
             </ul>
         </nav>
-
-       <h2> 1. Logische Lagen in het OSI-model (Netwerkarchitectuur)</h2>
-Het OSI-model (Open Systems Interconnection) bestaat uit zeven lagen, waarbij sommige van deze lagen verantwoordelijk zijn voor logische taken die onafhankelijk zijn van de fysieke implementatie van het netwerk. Voorbeelden van logische lagen in dit model zijn:
-
-Netwerklaag (laag 3): Dit is een logische laag die verantwoordelijk is voor de adressering (zoals IP-adressen) en de routering van gegevens van de ene computer naar de andere. De netwerklaag bepaalt het pad dat gegevens moeten volgen, onafhankelijk van de onderliggende fysieke infrastructuur.
-Transportlaag (laag 4): Deze laag zorgt voor de logische communicatie tussen de eindpunten van een netwerkverbinding, waarbij betrouwbaarheid (bijvoorbeeld TCP) of snelheid (bijvoorbeeld UDP) kan worden geregeld.
-
-<h2>2. Logische Lagen in Softwarearchitectuur</h2>
-In softwareontwikkeling wordt vaak gewerkt met een gelaagde architectuur, waarbij de logische lagen verantwoordelijk zijn voor verschillende aspecten van de applicatie:
-
-Presentatielaag (of gebruikersinterface): Dit is de laag die zich richt op de interactie tussen de gebruiker en het systeem. Het bevat de logica die bepaalt hoe informatie wordt gepresenteerd aan de gebruiker.
-
-Toepassingslaag (of logica-laag): Dit is de laag waarin de bedrijfslogica van de applicatie wordt beheerd. Het bepaalt hoe de gegevens worden verwerkt en welke acties worden uitgevoerd op basis van de gebruikersinput. Dit kan bijvoorbeeld berekeningen, regels voor de verwerking van gegevens, of het beheren van transacties omvatten.
-
-Datalag (of gegevenslaag): De gegevenslaag is verantwoordelijk voor de opslag en het ophalen van gegevens uit een database of andere opslagmechanismen. Het bevat de logica voor toegang tot en manipulatie van de gegevens, maar is gescheiden van de presentatie- en applicatielogica.
-
-<h2>3. Logische Lagen in Databases</h2>
-In databasesystemen kunnen logische lagen de manier beschrijven waarop gegevens worden georganiseerd, los van hoe ze fysiek worden opgeslagen. Voorbeelden zijn:
-
-Logische gegevenslaag: Dit beschrijft hoe de data logisch wordt georganiseerd in tabellen, views, relaties en sleutels (bijvoorbeeld de structuur van een relationele database). Het maakt geen onderscheid tussen hoe de gegevens op schijven of andere opslagmedia zijn opgeslagen.
-
-Fysieke gegevenslaag: Dit gaat over de daadwerkelijke opslag van de gegevens op hardware, zoals de manier waarop de gegevens in schijven worden opgeslagen en georganiseerd. De logische laag is abstract van deze fysieke opslag.
-
-<h2>4. Logische Lagen in het Model-View-Controller (MVC) Patroon</h2>
-Het MVC-patroon is een veelgebruikte software-architectuur voor webtoepassingen en bestaat uit verschillende logische lagen:
-
-Model (logische laag): Dit bevat de applicatielogica en de gegevensstructuren die de kern van de applicatie vormen. Het is verantwoordelijk voor de verwerking van gegevens en logica, maar maakt geen deel uit van de gebruikersinterface.
-
-View (weergavelogica): Dit is de laag die verantwoordelijk is voor het presenteren van de gegevens aan de gebruiker en zorgt ervoor dat de juiste informatie visueel wordt weergegeven, afhankelijk van de applicatie-instellingen en gebruikersinteracties.
-
-Controller (logische coördinator): De controller handelt gebruikersinvoer af, verwerkt het en kan vervolgens het model bijwerken of de weergave-updates beheren. Het is de laag die de interactie tussen het model en de weergave regelt.
-
-<h2>5. Logische Lagen in een 3-Laags Architectuur</h2>
-Een veelgebruikte architectuur in softwareontwikkeling is de 3-laags architectuur. Deze wordt vaak toegepast in webapplicaties en staat de scheiding van verantwoordelijkheden toe:
-
-Presentatielaag (of User Interface Layer): Deze laag behandelt de interactie van de gebruiker met de applicatie. Het vertaalt de gegevens en acties naar een begrijpelijke vorm voor de eindgebruiker.
-
-Logische laag (Business Logic Layer): Deze laag bevat de daadwerkelijke logica van de applicatie, zoals bedrijfsregels, berekeningen en verwerkingsstappen.
-
-Gegevenslaag (Data Access Layer): Deze laag is verantwoordelijk voor de toegang tot databases en andere opslagmechanismen, zoals bestandsystemen, en zorgt voor het ophalen en bewaren van gegevens.
-
-<h2>6. Logische Lagen in Cloud Computing</h2>
-In cloud computing kunnen logische lagen verschillende aspecten van cloudservices beschrijven:
-
-Infrastructuur-laag (IaaS): Dit is de laag die virtualisatie van hardware en infrastructuur biedt (zoals servers, opslag en netwerkcapaciteit) zonder dat de gebruiker zich zorgen hoeft te maken over de fysieke hardware.
-
-Platform-laag (PaaS): Hier wordt een platform geboden voor het ontwikkelen, testen en implementeren van applicaties zonder dat de gebruiker zich zorgen hoeft te maken over de onderliggende infrastructuur.
-
-Software-laag (SaaS): De softwarelaag biedt complete applicaties die via de cloud beschikbaar zijn, zoals e-mailservices of projectmanagementsoftware, waarbij de gebruiker alleen de applicatie zelf gebruikt.
-
-<h2>7. Logische Lagen in Virtualisatie</h2>
-In virtualisatie verwijst de logische laag naar de abstractie tussen de fysieke hardware en de virtuele machines:
-
-Hypervisor-laag: Deze laag maakt virtualisatie mogelijk door een abstractie van de fysieke hardware te bieden, waardoor meerdere virtuele machines tegelijkertijd op dezelfde fysieke server kunnen draaien.
-
-Virtuele machine-laag: Deze laag bevat het besturingssysteem en de applicaties die draaien binnen een virtuele machine. De logica van de virtuele machine is gescheiden van de fysieke hardware.
             <h3 style="color: white;">
         </main>
     </body>
