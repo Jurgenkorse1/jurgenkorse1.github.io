@@ -48,8 +48,9 @@ div {
     height: 500px;
     padding: 10px;
    
-    display:grid;
-    place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 button {
     background-color: rgb(207, 10, 10);
