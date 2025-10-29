@@ -1,10 +1,14 @@
+/* ----------------------------
+   BASISOPMAAK
+-----------------------------*/
 body {
     margin: 0px;
-    background-image: url('Schoolzaken.png'); /* Correcte URL met juiste escape voor de spatie */
+    background-image: url('Schoolzaken.png'); /* Achtergrondafbeelding */
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    scroll-behavior: smooth; /* <== Smooth scroll toegevoegd */
 }
 
 main {
@@ -16,6 +20,9 @@ h1 {
     text-align: center;
 }
 
+/* ----------------------------
+   NAVIGATIEBALK
+-----------------------------*/
 .navbar ul {
     list-style-type: none;
     background-color: hsl(0, 0%, 12.5%);
@@ -31,6 +38,7 @@ h1 {
     padding: 15px;
     text-align: center;
     display: block;
+    transition: background-color 0.3s ease;
 }
 
 .navbar a:hover {
@@ -43,4 +51,37 @@ h1 {
 
 .navbar li:last-child {
     margin-left: auto;
+}
+
+/* ----------------------------
+   SCROLL NAAR BOVEN KNOP
+-----------------------------*/
+#backToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background: hsl(0, 0%, 20%);
+    color: white;
+    font-size: 22px;
+    display: none; /* standaard verborgen */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+#backToTop:hover {
+    background: hsl(0, 0%, 35%);
+    transform: scale(1.1);
+}
+
+#backToTop.show {
+    display: flex;
+    opacity: 1;
 }
